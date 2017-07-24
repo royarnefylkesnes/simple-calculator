@@ -1,0 +1,23 @@
+{
+  "name": "Simple-Calculator",
+  "version": "1.0.0",
+  "description": "A minimal Calculator running in Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --platform win32 --arch x64 --out dist/",
+    "setup": "electron-installer-windows --src Development/simple-calculator/ --dest Development/simple-calculator/installers/"
+  },
+  "repository": "",
+  "keywords": [
+    "Calculator"
+  ],
+  "author": "Roy Arne Fylkesnes",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-installer-windows": "*",
+    "electron-packager": "*",
+    "electron-prebuilt": "*"
+  }
+}

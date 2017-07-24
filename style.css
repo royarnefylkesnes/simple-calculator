@@ -1,0 +1,78 @@
+.wrapper {
+  width: 560px;
+  height: 540px;
+  display: block;
+  overflow: hidden;
+}
+
+.output {
+  height: 60px;
+  width: 540px;
+  background-color: black;
+  font-size: 40px;
+  line-height: 60px;
+  padding: 0 10px 0 10px;
+  color: white;
+}
+
+.output p {
+  padding: 0;
+  margin: 0;
+}
+
+.input table {
+  margin: 5px 0 5px -3px;
+}
+
+.input input[type=button] {
+  height: 60px;
+  width: 90px;
+  font-size: 40px;
+  line-height: 50px;
+  padding: 0 5px 0 5px;
+}
+
+.clear {
+  background-color: orange;
+  color: white;
+}
+
+.operator {
+  background-color: black;
+  color: white;
+}
+
+.preop {
+  background-color: lightblue;
+  color: white;
+}
+
+.calc {
+  background-color: green;
+  color: white;
+  height: 124px !important;
+}
+
+.transcript {
+  width: 538px;
+  height: 190px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  color: #666;
+  padding: 10px;
+}
+
+.transcript p {
+  padding: 0;
+  margin: 0;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.transcript span {
+  padding: 0 0 10px 0;
+  margin: 0;
+  line-height: 20px;
+  font-size: 16px;
+  color: #999;
+}

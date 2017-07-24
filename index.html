@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Simple Calculator v.1.0</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="renderer.js"></script>
+  </head>
+  <body>
+
+    <div class="wrapper">
+
+      <div class="output">
+        <p id="result"></p>
+      </div>
+
+      <div class="input">
+        <table>
+          <tr>
+            <td><input type="button" onclick="num7()" value="7" /></td>
+            <td><input type="button" onclick="num8()" value="8" /></td>
+            <td><input type="button" onclick="num9()" value="9" /></td>
+            <td><input type="button" class="operator" onclick="subtraction()" value="/" /></td>
+            <td><input type="button" class="preop" onclick="eur()" value="eur" /></td>
+            <td><input type="button" onclick="del()" value="del" /></td>
+          </tr>
+          <tr>
+            <td><input type="button" onclick="num4()" value="4" /></td>
+            <td><input type="button" onclick="num5()" value="5" /></td>
+            <td><input type="button" onclick="num6()" value="6" /></td>
+            <td><input type="button" class="operator" onclick="addition()" value="*" /></td>
+            <td><input type="button" class="preop" onclick="nok()" value="nok" /></td>
+            <td><input type="button" class="clear" onclick="clearAll()" value="C" /></td>
+          </tr>
+          <tr>
+            <td><input type="button" onclick="num1()" value="1" /></td>
+            <td><input type="button" onclick="num2()" value="2" /></td>
+            <td><input type="button" onclick="num3()" value="3" /></td>
+            <td><input type="button" class="operator" onclick="minus()" value="-" /></td>
+            <td><input type="button" class="preop" onclick="plusVat()" value="+vat" /></td>
+            <td rowspan="2"><input type="button" class="calc" onclick="calc()" value="=" /></td>
+          </tr>
+          <tr>
+            <td><input type="button" onclick="negate()" value="(-)" /></td>
+            <td><input type="button" onclick="num0()" value="0" /></td>
+            <td><input type="button" onclick="comma()" value="," /></td>
+            <td><input type="button" class="operator" onclick="plus()" value="+" /></td>
+            <td><input type="button" class="preop" onclick="minusVat()" value="-vat" /></td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="transcript">
+        <span>Transcript:</span>
+        <div id="transcript"></div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
